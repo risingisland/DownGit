@@ -42,7 +42,8 @@ homeModule.config([
                         var parameter = {
                             url: $routeParams.url,
                             fileName: $routeParams.fileName,
-                            rootDirectory: $routeParams.rootDirectory
+                            rootDirectory: $routeParams.rootDirectory,
+                            directFile: $routeParams.directFile,
                         };
                         var progress = {
                             isProcessing: $scope.isProcessing,
